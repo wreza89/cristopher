@@ -144,8 +144,6 @@ def mainJunos():
                     dataIPScsv = file.read()
                     download = FileDownloader(dataIPScsv, file_ext='csv').download()
 
-
-        #st.write('All rights reserved. Developed by David Minango')
         
     if choice == 'Archivo CSV JUNOS - GRUPO':
         st.write('Indicaciones de uso:')
@@ -251,8 +249,6 @@ def mainJunos():
                     download = FileDownloader(dataIPScsv, file_ext='csv').download()
 
 
-        #st.write('All rights reserved. Developed by David Minango')
-
     if choice == 'Comparación de IPs - JUNOS':
         st.write('Indicaciones de uso:')
         st.write("Cargar los dos archivos en (.txt), el archivo 1 debe ser la base de datos de JUNOS, el archivo 2 debe ser el enviado por Ingenieria.")
@@ -279,7 +275,7 @@ def mainJunos():
             df_1notin2 = df2[~(df2['BaseIngenieria'].isin(df1['BaseDatos']) )].reset_index(drop=True)
             st.write(df_1notin2)
 
-        #st.write('All rights reserved. Developed by David Minango')
+
 
 
 
