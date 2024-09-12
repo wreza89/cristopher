@@ -31,7 +31,7 @@ def mainJunos():
     #st.title("Pasos a Producción")
 
     ### INFORMACION LADO IZQUIERDO ###
-    #st.sidebar.image('proconty.jpg', width=300)
+    #st.sidebar.image('eleccom.jpg', width=300)
 
 
     ### ESTRUCTURA PRINCIPAL ### 
