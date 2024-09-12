@@ -1,7 +1,6 @@
 #### BIBLIOTECAS ####
 import streamlit as st
 import docx2txt
-#import pdfplumber
 from datetime import datetime, date
 
 #UTILS
